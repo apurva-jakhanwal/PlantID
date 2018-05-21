@@ -14,6 +14,7 @@ class FlowerSymmetryViewController: UIViewController {
     @IBOutlet var bilateral: UISwitch!
     @IBOutlet var asymmetric: UISwitch!
     @IBOutlet var next_res: UIButton!
+    @IBOutlet var scroll: UIScrollView!
     
     @IBAction func radial_selected(radial: UISwitch) {
         if (radial.isOn == true){
@@ -23,7 +24,7 @@ class FlowerSymmetryViewController: UIViewController {
         }
         else{
             if (plantinfo.flower_symmetry.contains("radial")){
-                plantinfo.flower_color.remove("radial")
+                plantinfo.flower_symmetry.remove("radial")
                 if plantinfo.flower_symmetry.count == 0{
                     next_res.isEnabled = false
                 }
@@ -39,7 +40,7 @@ class FlowerSymmetryViewController: UIViewController {
         }
         else{
             if (plantinfo.flower_symmetry.contains("bilateral")){
-                plantinfo.flower_color.remove("bilateral")
+                plantinfo.flower_symmetry.remove("bilateral")
                 if plantinfo.flower_symmetry.count == 0{
                     next_res.isEnabled = false
                 }
@@ -55,7 +56,7 @@ class FlowerSymmetryViewController: UIViewController {
         }
         else{
             if (plantinfo.flower_symmetry.contains("asymmetric")){
-                plantinfo.flower_color.remove("asymmetric")
+                plantinfo.flower_symmetry.remove("asymmetric")
                 if plantinfo.flower_symmetry.count == 0{
                     next_res.isEnabled = false
                 }
@@ -67,6 +68,8 @@ class FlowerSymmetryViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+280)
         
         radial.addTarget(self, action: #selector(FlowerSymmetryViewController.radial_selected(radial:)), for: UIControlEvents.valueChanged)
         bilateral.addTarget(self, action: #selector(FlowerSymmetryViewController.bilateral_selected(bilateral:)), for: UIControlEvents.valueChanged)

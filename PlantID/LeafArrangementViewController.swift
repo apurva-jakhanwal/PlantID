@@ -17,6 +17,7 @@ class LeafArrangementViewController: UIViewController {
     @IBOutlet var basil: UISwitch!
     @IBOutlet var rosette: UISwitch!
     @IBOutlet var next_growth: UIButton!
+    @IBOutlet var scroll: UIScrollView!
     
     @IBAction func alternate_selected(alternate: UISwitch){
         if(alternate.isOn == true){
@@ -116,6 +117,8 @@ class LeafArrangementViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1400)
 
         // Do any additional setup after loading the view.
         alternate.addTarget(self, action: #selector(LeafArrangementViewController.alternate_selected(alternate:)), for: UIControlEvents.valueChanged)

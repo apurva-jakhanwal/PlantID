@@ -16,6 +16,7 @@ class PlantGroupViewController: UIViewController {
     @IBOutlet var forb: UISwitch!
     @IBOutlet var succulent: UISwitch!
     @IBOutlet var next_leafShape: UIButton!
+    @IBOutlet var scroll: UIScrollView!
     
     @IBAction func tree_selected(tree: UISwitch) {
         if (tree.isOn == true){
@@ -101,7 +102,8 @@ class PlantGroupViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
+        scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1020)
+
         print("Plant Group Controller")
         tree.addTarget(self, action: #selector(PlantGroupViewController.tree_selected(tree:)), for: UIControlEvents.valueChanged)
         grass.addTarget(self, action: #selector(PlantGroupViewController.grass_selected(grass:)), for: UIControlEvents.valueChanged)

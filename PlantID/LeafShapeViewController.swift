@@ -16,6 +16,7 @@ class LeafShapeViewController: UIViewController {
     @IBOutlet var divided: UISwitch!
     @IBOutlet var blade: UISwitch!
     @IBOutlet var next_leafarrange: UIButton!
+    @IBOutlet var scroll: UIScrollView!
     
     @IBAction func simple_selected(simple: UISwitch){
         if(simple.isOn == true){
@@ -98,6 +99,8 @@ class LeafShapeViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1020)
 
         // Do any additional setup after loading the view.
         simple.addTarget(self, action: #selector(LeafShapeViewController.simple_selected(simple:)), for: UIControlEvents.valueChanged)

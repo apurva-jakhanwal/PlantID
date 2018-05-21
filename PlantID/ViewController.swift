@@ -38,6 +38,7 @@ class ViewController: UIViewController {
         plantinfo.flower_color = []
         plantinfo.flower = nil
         plantinfo.flower_symmetry = []
+        foundplants.dict = [:]
     }
 
     

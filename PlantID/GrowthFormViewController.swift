@@ -21,6 +21,7 @@ class GrowthFormViewController: UIViewController {
     @IBOutlet var basil: UISwitch!
     @IBOutlet var vine: UISwitch!
     @IBOutlet var next_flower: UIButton!
+    @IBOutlet var scroll: UIScrollView!
     
     @IBAction func prostate_selected(prostate: UISwitch){
         if(prostate.isOn == true){
@@ -170,6 +171,8 @@ class GrowthFormViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+2500)
         
         prostate.addTarget(self, action: #selector(GrowthFormViewController.prostate_selected(prostate:)), for: UIControlEvents.valueChanged)
         decumbent.addTarget(self, action: #selector(GrowthFormViewController.decumbent_selected(decumbent:)), for: UIControlEvents.valueChanged)

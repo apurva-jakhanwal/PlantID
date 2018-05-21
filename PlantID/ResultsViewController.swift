@@ -87,10 +87,13 @@ class ResultsViewController: UIViewController {
         let fullString = NSMutableAttributedString(string: Array(sortedKeys)[0].0.components(separatedBy: "?")[0] + "\n\n")
         
         // create our NSTextAttachment
-        /*
         let image1Attachment = NSTextAttachment()
-        image1Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[0].0.components(separatedBy: "?")[1] + "_Plant.jpg")
-        
+        if FileManager.default.fileExists(atPath: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[0].0.components(separatedBy: "?")[1] + "_Plant.jpg"){
+            image1Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[0].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        }
+        else{
+            image1Attachment.image = UIImage(named: "placeholder1.png")
+        }
         let oldWidth = image1Attachment.image!.size.width;
         let scaleFactor = oldWidth / (scrollable_outputs.frame.size.width - 50);
         image1Attachment.image = UIImage(cgImage: image1Attachment.image!.cgImage!, scale: scaleFactor, orientation: .up)
@@ -100,13 +103,18 @@ class ResultsViewController: UIViewController {
         
         // add the NSTextAttachment wrapper to our full string, then add some more text.
         fullString.append(image1String)
-         */
+
         fullString.append(NSAttributedString(string: "\n\n" + Array(sortedKeys)[1].0.components(separatedBy: "?")[0] + "\n\n"))
         
         // create our NSTextAttachment
-        /*
         let image2Attachment = NSTextAttachment()
-        image2Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[1].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        if FileManager.default.fileExists(atPath:"/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[1].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        {
+            image2Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[1].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        }
+        else{
+            image2Attachment.image = UIImage(named: "placeholder1.png")
+        }
         let oldWidth2 = image2Attachment.image!.size.width;
         let scaleFactor2 = oldWidth2 / (scrollable_outputs.frame.size.width - 50);
         image2Attachment.image = UIImage(cgImage: image2Attachment.image!.cgImage!, scale: scaleFactor2, orientation: .up)
@@ -116,13 +124,17 @@ class ResultsViewController: UIViewController {
         
         // add the NSTextAttachment wrapper to our full string, then add some more text.
         fullString.append(image2String)
-         */
         fullString.append(NSAttributedString(string: "\n\n" + Array(sortedKeys)[2].0.components(separatedBy: "?")[0] + "\n\n"))
         
         // create our NSTextAttachment
-        /*
         let image3Attachment = NSTextAttachment()
-        image3Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[2].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        if FileManager.default.fileExists(atPath:"/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[2].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        {
+            image3Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[2].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        }
+        else{
+            image3Attachment.image = UIImage(named: "placeholder1.png")
+        }
         
         let oldWidth3 = image3Attachment.image!.size.width;
         let scaleFactor3 = oldWidth3 / (scrollable_outputs.frame.size.width - 50);
@@ -133,41 +145,47 @@ class ResultsViewController: UIViewController {
         
         // add the NSTextAttachment wrapper to our full string, then add some more text.
         fullString.append(image3String)
-        */
         fullString.append(NSAttributedString(string: "\n\n" + Array(sortedKeys)[3].0.components(separatedBy: "?")[0] + "\n\n"))
         
         // create our NSTextAttachment
-        /*
         let image4Attachment = NSTextAttachment()
-        image4Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[3].0.components(separatedBy: "?")[1] + "_Plant.jpg")
-        
-        //let oldWidth4 = image4Attachment.image!.size.width;
-        //let scaleFactor4 = oldWidth4 / (scrollable_outputs.frame.size.width - 50);
-        //image4Attachment.image = UIImage(cgImage: image4Attachment.image!.cgImage!, scale: scaleFactor4, orientation: .up)
+        if FileManager.default.fileExists(atPath:"/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[3].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        {
+            image4Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[3].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        }
+        else{
+            image4Attachment.image = UIImage(named: "placeholder1.png")
+        }
+        let oldWidth4 = image4Attachment.image!.size.width;
+        let scaleFactor4 = oldWidth4 / (scrollable_outputs.frame.size.width - 50);
+        image4Attachment.image = UIImage(cgImage: image4Attachment.image!.cgImage!, scale: scaleFactor4, orientation: .up)
         
         // wrap the attachment in its own attributed string so we can append it
         let image4String = NSAttributedString(attachment: image4Attachment)
         
         // add the NSTextAttachment wrapper to our full string, then add some more text.
         fullString.append(image4String)
-        */
         fullString.append(NSAttributedString(string: "\n\n" + Array(sortedKeys)[4].0.components(separatedBy: "?")[0] + "\n\n"))
         
         // create our NSTextAttachment
-        /*
         let image5Attachment = NSTextAttachment()
-        image5Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[4].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        if FileManager.default.fileExists(atPath:"/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[4].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        {
+            image5Attachment.image = UIImage(named: "/Users/apurvajakhanwal/Downloads/images/" + Array(sortedKeys)[4].0.components(separatedBy: "?")[1] + "_Plant.jpg")
+        }
+        else{
+            image5Attachment.image = UIImage(named: "placeholder1.png")
+        }
         
-        //let oldWidth5 = image5Attachment.image!.size.width;
-        //let scaleFactor5 = oldWidth5 / (scrollable_outputs.frame.size.width - 50);
-        //image5Attachment.image = UIImage(cgImage: image5Attachment.image!.cgImage!, scale: scaleFactor5, orientation: .up)
+        let oldWidth5 = image5Attachment.image!.size.width;
+        let scaleFactor5 = oldWidth5 / (scrollable_outputs.frame.size.width - 50);
+        image5Attachment.image = UIImage(cgImage: image5Attachment.image!.cgImage!, scale: scaleFactor5, orientation: .up)
         
         // wrap the attachment in its own attributed string so we can append it
         let image5String = NSAttributedString(attachment: image5Attachment)
         
         // add the NSTextAttachment wrapper to our full string, then add some more text.
         fullString.append(image5String)
-        */
         fullString.append(NSAttributedString(string: "\n\n"))
         
         // draw the result in a label
