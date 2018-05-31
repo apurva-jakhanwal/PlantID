@@ -14,6 +14,9 @@ class ResultsViewController: UIViewController {
     @IBOutlet var scrollable_outputs: UITextView!
     
     func readLocalJsonFile() {
+        let total = plantinfo.group.count + plantinfo.arrangement.count + plantinfo.growth_form.count + plantinfo.shape.count + plantinfo.flower_color.count + plantinfo.flower_symmetry.count
+        print (total)
+        
         if let urlPath = Bundle.main.url(forResource: "plants", withExtension: "json") {
             do {
                 let jsonData = try Data(contentsOf: urlPath, options: .mappedIfSafe)
@@ -50,6 +53,10 @@ class ResultsViewController: UIViewController {
             }
         }
         let sortedKeys = foundplants.dict.sorted(by: byValue)
+        for (key, val) in sortedKeys {
+            print(key, Float(val.count)/Float(total) * 100)
+            print("\n")
+        }
         print(sortedKeys)
         /*
         var s = String()

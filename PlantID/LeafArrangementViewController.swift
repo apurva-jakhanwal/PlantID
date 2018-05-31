@@ -118,7 +118,7 @@ class LeafArrangementViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1400)
+         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1410)
 
         // Do any additional setup after loading the view.
         alternate.addTarget(self, action: #selector(LeafArrangementViewController.alternate_selected(alternate:)), for: UIControlEvents.valueChanged)

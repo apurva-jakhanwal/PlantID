@@ -69,7 +69,7 @@ class FlowerSymmetryViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+280)
+         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+290)
         
         radial.addTarget(self, action: #selector(FlowerSymmetryViewController.radial_selected(radial:)), for: UIControlEvents.valueChanged)
         bilateral.addTarget(self, action: #selector(FlowerSymmetryViewController.bilateral_selected(bilateral:)), for: UIControlEvents.valueChanged)
