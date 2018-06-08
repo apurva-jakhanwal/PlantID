@@ -22,11 +22,16 @@ class FoundPlants{
     var dict: Dictionary<String, [String]> = [:]
 }
 
+class FinalPlants{
+    var codes: [String] = []
+    var names: [String] = []
+}
+
 let plantinfo = PlantInfo()
 let foundplants = FoundPlants()
+let finalplants = FinalPlants()
 
-class ViewController: UIViewController {
-    
+class ViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -39,10 +44,9 @@ class ViewController: UIViewController {
         plantinfo.flower = nil
         plantinfo.flower_symmetry = []
         foundplants.dict = [:]
+        finalplants.names = []
+        finalplants.codes = []
     }
-
-    
-
 
 }
 

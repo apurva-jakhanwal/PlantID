@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -17,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tdi-8E-7H0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="tdi-8E-7H0">
                                 <rect key="frame" x="0.0" y="72" width="414" height="664"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -106,13 +107,22 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tcB-38-Dfe">
-                                <rect key="frame" x="20" y="104" width="374" height="552"/>
+                                <rect key="frame" x="20" y="156" width="374" height="452"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <string key="text">App Icon (California Poppy): Noun Project Gabi McKenzie Bush Image: Noun Project Veremeya
-Succulent Image: Noun Project Alice Noir
-Grass Image: Noun project Nilena Zanotelli
-Tree Image: Noun project 2007 ruli
-Forb Image: Noun project Agne Alesiute</string>
+                                <string key="text">Android Developer - Tony Pham
+Android Developer - Patrick Farrell
+iOS Developer - Apurva Jakhanwal
+iOS Developer - Sid Kasat
+Developer - Dennis Quach
+Developer - Cesar Venegas
+Developer - Junyong Shim
+
+App Icon - Noun Project Gabi McKenzie
+Bush Image - Noun Project Veremeya
+Succulent Image - Noun Project Alice Noir
+Grass Image - Noun project Nilena Zanotelli
+Tree Image - Noun project 2007 ruli
+Forb Image - Noun project Agne Alesiute</string>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -209,19 +219,19 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.png" translatesAutoresizingMaskIntoConstraints="NO" id="cOA-7F-2d1">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree" translatesAutoresizingMaskIntoConstraints="NO" id="cOA-7F-2d1">
                                         <rect key="frame" x="121" y="152" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ftl-Mi-uLz">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="grass" translatesAutoresizingMaskIntoConstraints="NO" id="Ftl-Mi-uLz">
                                         <rect key="frame" x="121" y="338" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrub.png" translatesAutoresizingMaskIntoConstraints="NO" id="Tmf-CX-6RL">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shrub" translatesAutoresizingMaskIntoConstraints="NO" id="Tmf-CX-6RL">
                                         <rect key="frame" x="121" y="521" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forb.png" translatesAutoresizingMaskIntoConstraints="NO" id="uvt-Z5-cKs">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="forb" translatesAutoresizingMaskIntoConstraints="NO" id="uvt-Z5-cKs">
                                         <rect key="frame" x="121" y="706" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -239,12 +249,12 @@ Forb Image: Noun project Agne Alesiute</string>
                                             <action selector="succulent:" destination="m1m-J7-4uG" eventType="valueChanged" id="e9P-zm-ZLj"/>
                                         </connections>
                                     </switch>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="succulent.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z9B-OE-iZn">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="succulent" translatesAutoresizingMaskIntoConstraints="NO" id="Z9B-OE-iZn">
                                         <rect key="frame" x="121" y="889" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7HR-sG-fZR">
-                                        <rect key="frame" x="27" y="1099" width="80" height="27"/>
+                                        <rect key="frame" x="23" y="1099" width="80" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -258,8 +268,30 @@ Forb Image: Noun project Agne Alesiute</string>
                                             <segue destination="BYZ-38-t0r" kind="show" id="YA8-bc-onp"/>
                                         </connections>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the plant group?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npR-mE-oqT">
+                                        <rect key="frame" x="0.0" y="1" width="383" height="56"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="5et-aj-fiK">
+                                        <rect key="frame" x="164" y="1073" width="84" height="53"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1L-Ya-a6R">
+                                        <rect key="frame" x="186" y="1089" width="41" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                        <state key="normal" title="Home">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="Ncm-Hk-PnE"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8n-3D-cFQ">
-                                        <rect key="frame" x="308" y="1099" width="50" height="27"/>
+                                        <rect key="frame" x="306" y="1099" width="50" height="30"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
@@ -273,28 +305,6 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <connections>
                                             <action selector="next_shape:" destination="m1m-J7-4uG" eventType="touchUpInside" id="jJi-oe-5qO"/>
                                             <segue destination="CbC-KE-dPO" kind="show" id="wdG-PP-Thi"/>
-                                        </connections>
-                                    </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the plant group?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="npR-mE-oqT">
-                                        <rect key="frame" x="0.0" y="1" width="383" height="56"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="5et-aj-fiK">
-                                        <rect key="frame" x="164" y="1073" width="84" height="53"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u1L-Ya-a6R">
-                                        <rect key="frame" x="186" y="1089" width="41" height="30"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                                        <state key="normal" title="Home">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <segue destination="BYZ-38-t0r" kind="show" id="Ncm-Hk-PnE"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -428,11 +438,11 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <rect key="frame" x="63" y="857" width="49" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </switch>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deeplydivided.png" translatesAutoresizingMaskIntoConstraints="NO" id="KyE-ac-gkQ">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deeplydivided" translatesAutoresizingMaskIntoConstraints="NO" id="KyE-ac-gkQ">
                                         <rect key="frame" x="128" y="709" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blade.png" translatesAutoresizingMaskIntoConstraints="NO" id="qYp-TJ-Vsf">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="blade" translatesAutoresizingMaskIntoConstraints="NO" id="qYp-TJ-Vsf">
                                         <rect key="frame" x="128" y="896" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -444,19 +454,19 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple.png" translatesAutoresizingMaskIntoConstraints="NO" id="DFx-8O-HUk">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="DFx-8O-HUk">
                                         <rect key="frame" x="128" y="148" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lobed.png" translatesAutoresizingMaskIntoConstraints="NO" id="K5G-Ca-OSY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lobed" translatesAutoresizingMaskIntoConstraints="NO" id="K5G-Ca-OSY">
                                         <rect key="frame" x="128" y="335" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinnate.png" translatesAutoresizingMaskIntoConstraints="NO" id="oDt-Nr-Mka">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pinnate" translatesAutoresizingMaskIntoConstraints="NO" id="oDt-Nr-Mka">
                                         <rect key="frame" x="128" y="522" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="5pk-4p-O4h">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="5pk-4p-O4h">
                                         <rect key="frame" x="164" y="1080" width="84" height="53"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     </imageView>
@@ -611,27 +621,27 @@ Forb Image: Noun project Agne Alesiute</string>
                                             <segue destination="2aC-x3-f1f" kind="show" id="6wE-Zh-5rr"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alternate.png" translatesAutoresizingMaskIntoConstraints="NO" id="oLs-tS-qmm">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alternate" translatesAutoresizingMaskIntoConstraints="NO" id="oLs-tS-qmm">
                                         <rect key="frame" x="121" y="148" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="opposite.png" translatesAutoresizingMaskIntoConstraints="NO" id="4My-Sg-G0b">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="opposite" translatesAutoresizingMaskIntoConstraints="NO" id="4My-Sg-G0b">
                                         <rect key="frame" x="121" y="335" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bundled.png" translatesAutoresizingMaskIntoConstraints="NO" id="0J5-LN-vrq">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bundled" translatesAutoresizingMaskIntoConstraints="NO" id="0J5-LN-vrq">
                                         <rect key="frame" x="121" y="522" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whorled.png" translatesAutoresizingMaskIntoConstraints="NO" id="8sT-5y-BfA">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="whorled" translatesAutoresizingMaskIntoConstraints="NO" id="8sT-5y-BfA">
                                         <rect key="frame" x="121" y="709" width="140" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ghr-gf-Dke">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette" translatesAutoresizingMaskIntoConstraints="NO" id="Ghr-gf-Dke">
                                         <rect key="frame" x="121" y="906" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette.png" translatesAutoresizingMaskIntoConstraints="NO" id="cdo-Ci-UUp">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette" translatesAutoresizingMaskIntoConstraints="NO" id="cdo-Ci-UUp">
                                         <rect key="frame" x="121" y="1093" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -643,7 +653,7 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="LsL-Cz-wYd">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="LsL-Cz-wYd">
                                         <rect key="frame" x="161" y="1272" width="84" height="53"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     </imageView>
@@ -832,39 +842,39 @@ Forb Image: Noun project Agne Alesiute</string>
                                             <segue destination="yfG-55-KZr" kind="show" id="bka-6Q-Deg"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prostrate.png" translatesAutoresizingMaskIntoConstraints="NO" id="DNZ-Ck-u4M">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="prostrate" translatesAutoresizingMaskIntoConstraints="NO" id="DNZ-Ck-u4M">
                                         <rect key="frame" x="121" y="148" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="decumbent.png" translatesAutoresizingMaskIntoConstraints="NO" id="D2G-i4-8tX">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="decumbent" translatesAutoresizingMaskIntoConstraints="NO" id="D2G-i4-8tX">
                                         <rect key="frame" x="121" y="335" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ascending.png" translatesAutoresizingMaskIntoConstraints="NO" id="ETD-tz-9vd">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ascending" translatesAutoresizingMaskIntoConstraints="NO" id="ETD-tz-9vd">
                                         <rect key="frame" x="121" y="522" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="erect.png" translatesAutoresizingMaskIntoConstraints="NO" id="KKr-gD-Lro">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="erect" translatesAutoresizingMaskIntoConstraints="NO" id="KKr-gD-Lro">
                                         <rect key="frame" x="121" y="709" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mat.png" translatesAutoresizingMaskIntoConstraints="NO" id="0li-mk-1qR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mat" translatesAutoresizingMaskIntoConstraints="NO" id="0li-mk-1qR">
                                         <rect key="frame" x="123" y="896" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clump.png" translatesAutoresizingMaskIntoConstraints="NO" id="jbt-oS-ueY">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="clump" translatesAutoresizingMaskIntoConstraints="NO" id="jbt-oS-ueY">
                                         <rect key="frame" x="121" y="1083" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette.png" translatesAutoresizingMaskIntoConstraints="NO" id="lXa-ID-mO4">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette" translatesAutoresizingMaskIntoConstraints="NO" id="lXa-ID-mO4">
                                         <rect key="frame" x="123" y="1270" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette.png" translatesAutoresizingMaskIntoConstraints="NO" id="tkw-eR-5pn">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="basalrosette" translatesAutoresizingMaskIntoConstraints="NO" id="tkw-eR-5pn">
                                         <rect key="frame" x="123" y="1456" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vine.png" translatesAutoresizingMaskIntoConstraints="NO" id="D7L-yE-0bP">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vine" translatesAutoresizingMaskIntoConstraints="NO" id="D7L-yE-0bP">
                                         <rect key="frame" x="121" y="1643" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -876,7 +886,7 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="uDn-kh-sOj">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="uDn-kh-sOj">
                                         <rect key="frame" x="158" y="1819" width="84" height="53"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     </imageView>
@@ -964,7 +974,7 @@ Forb Image: Noun project Agne Alesiute</string>
                                 <rect key="frame" x="59" y="205" width="49" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <segue destination="HVZ-AW-qYy" kind="show" id="kH4-9J-M4U"/>
+                                    <segue destination="FMz-72-FkX" kind="show" id="j3v-1y-VK2"/>
                                 </connections>
                             </switch>
                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kCZ-ML-jyL">
@@ -993,13 +1003,13 @@ Forb Image: Noun project Agne Alesiute</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="G8Q-G2-boK">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="G8Q-G2-boK">
                                 <rect key="frame" x="165" y="663" width="84" height="53"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DID-MZ-ef4">
                                 <rect key="frame" x="187" y="679" width="41" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1174,13 +1184,13 @@ Forb Image: Noun project Agne Alesiute</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="m98-6O-g3e">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="m98-6O-g3e">
                                 <rect key="frame" x="165" y="663" width="84" height="53"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iwp-qi-JEV">
                                 <rect key="frame" x="187" y="679" width="41" height="30"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
                                 <state key="normal" title="Home">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -1260,11 +1270,11 @@ Forb Image: Noun project Agne Alesiute</string>
                                             <segue destination="gez-Qz-EqR" kind="show" id="USM-or-7Hp"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="radial.png" translatesAutoresizingMaskIntoConstraints="NO" id="uhf-wU-fwa">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="radial" translatesAutoresizingMaskIntoConstraints="NO" id="uhf-wU-fwa">
                                         <rect key="frame" x="106" y="134" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bilateral.png" translatesAutoresizingMaskIntoConstraints="NO" id="a8T-j8-zrf">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bilateral" translatesAutoresizingMaskIntoConstraints="NO" id="a8T-j8-zrf">
                                         <rect key="frame" x="106" y="321" width="140" height="140"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -1279,7 +1289,7 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assymetrical.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lvk-BG-gQR">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assymetrical" translatesAutoresizingMaskIntoConstraints="NO" id="Lvk-BG-gQR">
                                         <rect key="frame" x="106" y="508" width="140" height="150"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -1296,7 +1306,7 @@ Forb Image: Noun project Agne Alesiute</string>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="HVZ-AW-qYy" kind="show" id="2Tw-EQ-R05"/>
+                                            <segue destination="FMz-72-FkX" kind="show" id="gnx-oa-Qdz"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What is the flower symmetry?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1s4-7N-cIb">
@@ -1307,7 +1317,7 @@ Forb Image: Noun project Agne Alesiute</string>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="2TK-Li-fnk">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home" translatesAutoresizingMaskIntoConstraints="NO" id="2TK-Li-fnk">
                                         <rect key="frame" x="155" y="706" width="84" height="53"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                     </imageView>
@@ -1349,15 +1359,41 @@ Forb Image: Noun project Agne Alesiute</string>
             <point key="canvasLocation" x="4836.9565217391309" y="133.69565217391306"/>
         </scene>
         <!--Results View Controller-->
-        <scene sceneID="pTe-wn-SCd">
+        <scene sceneID="qrC-D4-wcc">
             <objects>
-                <viewController id="HVZ-AW-qYy" customClass="ResultsViewController" customModule="PlantID" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="b5K-3v-P5t">
+                <viewController id="FMz-72-FkX" customClass="ResultsViewController" customModule="PlantID" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="egP-Ir-RcV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="edY-zh-JeL">
-                                <rect key="frame" x="19" y="686" width="80" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iL6-bb-WEV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="60"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Nn-Ry-U2z">
+                                <rect key="frame" x="80" y="334" width="255" height="68"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="Show Results">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="tYB-Wa-UYr" kind="show" id="y6x-aq-RyQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvx-HU-ROV">
+                                <rect key="frame" x="20" y="686" width="80" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
@@ -1371,42 +1407,300 @@ Forb Image: Noun project Agne Alesiute</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="t37-MV-ddH" kind="show" id="22S-yU-bu6"/>
+                                    <segue destination="t37-MV-ddH" kind="show" id="0oE-lZ-fJi"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egd-h2-jhw">
-                                <rect key="frame" x="20" y="107" width="374" height="502"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PjI-8V-OOr">
-                                <rect key="frame" x="0.0" y="43" width="414" height="49"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="22"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LNU-x7-cdB">
-                                <rect key="frame" x="299" y="686" width="95" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
-                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <state key="normal" title="Start over">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="zmJ-LR-Nad"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RVk-vQ-kZD">
+                        </subviews>
+                        <color key="backgroundColor" red="0.8557709282" green="0.98548370600000001" blue="0.84233642200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="KqU-ot-8Fb"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JHk-RF-QSn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5486.9565217391309" y="183.42391304347828"/>
+        </scene>
+        <!--Top Results View Controller-->
+        <scene sceneID="66f-fv-Dov">
+            <objects>
+                <viewController id="tYB-Wa-UYr" customClass="TopResultsViewController" customModule="PlantID" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VeQ-Jo-NbD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1800"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CBq-NA-8NG">
+                                <rect key="frame" x="0.0" y="249" width="414" height="1551"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DOJ-U1-Fuz">
+                                        <rect key="frame" x="22" y="829" width="392" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="6LQ-c1-QYS">
+                                        <rect key="frame" x="0.0" y="54" width="414" height="233"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" red="0.8557709282" green="0.98548370600000001" blue="0.84233642200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Ue1-Fr-e5r">
+                                            <size key="itemSize" width="180" height="180"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="amT-F4-k8x" customClass="ImageCollectionViewCell" customModule="PlantID" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="26.666666666666668" width="180" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ohk-Ai-r0g">
+                                                            <rect key="frame" x="20" y="20" width="140" height="140"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </view>
+                                                <constraints>
+                                                    <constraint firstItem="ohk-Ai-r0g" firstAttribute="leading" secondItem="amT-F4-k8x" secondAttribute="leadingMargin" constant="12" id="JLp-8A-x0a"/>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="ohk-Ai-r0g" secondAttribute="bottom" constant="12" id="UoT-L4-FgM"/>
+                                                    <constraint firstItem="ohk-Ai-r0g" firstAttribute="top" secondItem="amT-F4-k8x" secondAttribute="topMargin" constant="12" id="X9Q-Vf-S1p"/>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="ohk-Ai-r0g" secondAttribute="trailing" constant="12" id="jki-MG-4bP"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="imgImage" destination="ohk-Ai-r0g" id="Zye-B1-CTO"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="tYB-Wa-UYr" id="SPM-XE-Ybd"/>
+                                            <outlet property="delegate" destination="tYB-Wa-UYr" id="4Fx-GO-DPT"/>
+                                        </connections>
+                                    </collectionView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u4T-Lk-uUt">
+                                        <rect key="frame" x="22" y="287" width="392" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cW-VY-nS9">
+                                        <rect key="frame" x="22" y="20" width="392" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0F-ig-2zM">
+                                        <rect key="frame" x="22" y="1097" width="392" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3a-3R-cTk">
+                                        <rect key="frame" x="22" y="559" width="392" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="7ZC-6C-X92">
+                                        <rect key="frame" x="0.0" y="326" width="414" height="233"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" red="0.8557709282" green="0.98548370600000001" blue="0.84233642200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2D9-Wp-HNf">
+                                            <size key="itemSize" width="180" height="180"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="vbL-CD-eyg" customClass="ImageCollectionViewCell" customModule="PlantID" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="26.666666666666668" width="180" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jj1-yx-5XY">
+                                                            <rect key="frame" x="20" y="20" width="140" height="140"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </view>
+                                                <constraints>
+                                                    <constraint firstItem="Jj1-yx-5XY" firstAttribute="top" secondItem="vbL-CD-eyg" secondAttribute="topMargin" constant="12" id="Rel-7K-y1g"/>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="Jj1-yx-5XY" secondAttribute="bottom" constant="12" id="fIR-M6-bL5"/>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="Jj1-yx-5XY" secondAttribute="trailing" constant="12" id="hgT-pr-6Xc"/>
+                                                    <constraint firstItem="Jj1-yx-5XY" firstAttribute="leading" secondItem="vbL-CD-eyg" secondAttribute="leadingMargin" constant="12" id="rn8-dF-oBB"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="imgImage2" destination="Jj1-yx-5XY" id="vFB-Tb-5fg"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="tYB-Wa-UYr" id="oS4-l1-pcL"/>
+                                            <outlet property="delegate" destination="tYB-Wa-UYr" id="CLr-Ep-5dV"/>
+                                        </connections>
+                                    </collectionView>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="t7a-U2-3Me">
+                                        <rect key="frame" x="0.0" y="866" width="414" height="233"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" red="0.8557709282" green="0.98548370600000001" blue="0.84233642200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Iua-2D-XDB">
+                                            <size key="itemSize" width="180" height="180"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="msA-sj-Fbg" customClass="ImageCollectionViewCell" customModule="PlantID" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="26.666666666666668" width="180" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="lYp-sO-MJM">
+                                                            <rect key="frame" x="20" y="20" width="140" height="140"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </view>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="lYp-sO-MJM" secondAttribute="bottom" constant="12" id="ITf-Ok-r1S"/>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="lYp-sO-MJM" secondAttribute="trailing" constant="12" id="PxN-Qa-1aU"/>
+                                                    <constraint firstItem="lYp-sO-MJM" firstAttribute="top" secondItem="msA-sj-Fbg" secondAttribute="topMargin" constant="12" id="VCX-wT-dt6"/>
+                                                    <constraint firstItem="lYp-sO-MJM" firstAttribute="leading" secondItem="msA-sj-Fbg" secondAttribute="leadingMargin" constant="12" id="yKS-Ec-TfX"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="imgImage4" destination="lYp-sO-MJM" id="Nr4-fb-U8w"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="tYB-Wa-UYr" id="es7-9x-Bra"/>
+                                            <outlet property="delegate" destination="tYB-Wa-UYr" id="v1T-Iy-Gls"/>
+                                        </connections>
+                                    </collectionView>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WKv-z2-KCu">
+                                        <rect key="frame" x="0.0" y="1153" width="414" height="233"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" red="0.8557709282" green="0.98548370600000001" blue="0.84233642200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="zr9-lx-LhG">
+                                            <size key="itemSize" width="180" height="180"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="ar6-Yu-A0L" customClass="ImageCollectionViewCell" customModule="PlantID" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="26.666666666666668" width="180" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="47O-XH-qi9">
+                                                            <rect key="frame" x="20" y="20" width="140" height="140"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </view>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="47O-XH-qi9" secondAttribute="bottom" constant="12" id="CdQ-EQ-D1U"/>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="47O-XH-qi9" secondAttribute="trailing" constant="12" id="HhE-Sk-ke4"/>
+                                                    <constraint firstItem="47O-XH-qi9" firstAttribute="leading" secondItem="ar6-Yu-A0L" secondAttribute="leadingMargin" constant="12" id="I5D-IU-jFr"/>
+                                                    <constraint firstItem="47O-XH-qi9" firstAttribute="top" secondItem="ar6-Yu-A0L" secondAttribute="topMargin" constant="12" id="OfT-47-2I6"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="imgImage5" destination="47O-XH-qi9" id="5AL-xE-suv"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="tYB-Wa-UYr" id="o8a-Xy-N6T"/>
+                                            <outlet property="delegate" destination="tYB-Wa-UYr" id="EuL-1E-HeY"/>
+                                        </connections>
+                                    </collectionView>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="4VY-0F-jv7">
+                                        <rect key="frame" x="0.0" y="598" width="414" height="233"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <color key="backgroundColor" red="0.8557709282" green="0.98548370600000001" blue="0.84233642200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nd2-XR-rV2">
+                                            <size key="itemSize" width="180" height="180"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImageCollectionViewCell" id="hYy-bN-Car" customClass="ImageCollectionViewCell" customModule="PlantID" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="26.666666666666668" width="180" height="180"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                                    <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <subviews>
+                                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ccj-jR-bBp">
+                                                            <rect key="frame" x="20" y="20" width="140" height="140"/>
+                                                        </imageView>
+                                                    </subviews>
+                                                </view>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottomMargin" secondItem="Ccj-jR-bBp" secondAttribute="bottom" constant="12" id="axc-8W-olq"/>
+                                                    <constraint firstItem="Ccj-jR-bBp" firstAttribute="top" secondItem="hYy-bN-Car" secondAttribute="topMargin" constant="12" id="oRz-J3-67R"/>
+                                                    <constraint firstAttribute="trailingMargin" secondItem="Ccj-jR-bBp" secondAttribute="trailing" constant="12" id="trc-yc-oZv"/>
+                                                    <constraint firstItem="Ccj-jR-bBp" firstAttribute="leading" secondItem="hYy-bN-Car" secondAttribute="leadingMargin" constant="12" id="z6r-5U-fj4"/>
+                                                </constraints>
+                                                <connections>
+                                                    <outlet property="imgImage3" destination="Ccj-jR-bBp" id="GPf-4h-flu"/>
+                                                </connections>
+                                            </collectionViewCell>
+                                        </cells>
+                                        <connections>
+                                            <outlet property="dataSource" destination="tYB-Wa-UYr" id="NX8-AP-oIw"/>
+                                            <outlet property="delegate" destination="tYB-Wa-UYr" id="A60-Tq-6U2"/>
+                                        </connections>
+                                    </collectionView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vuM-tl-b9Q">
+                                        <rect key="frame" x="275" y="1503" width="83" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Start Over">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="show" id="FUA-Te-kf3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="noh-as-Zfx">
+                                        <rect key="frame" x="22" y="1503" width="80" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Previous">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="onClickPrev:" destination="tYB-Wa-UYr" eventType="touchUpInside" id="Tup-Au-uNs"/>
+                                            <segue destination="t37-MV-ddH" kind="show" id="SiY-Wb-a0n"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Plant ID" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NFY-E2-2Nx">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="45"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1414,58 +1708,90 @@ Forb Image: Noun project Agne Alesiute</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PeQ-16-af9">
+                                <rect key="frame" x="0.0" y="43" width="414" height="49"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Displayed below are the top 5 results from your search!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kKd-by-oRK">
+                                <rect key="frame" x="0.0" y="102" width="414" height="94"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="For each plant, scroll right to view more images. Order of images is: Plant-&gt; Leaf-&gt; Flower-&gt; Cot-&gt; Seedling" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48y-fk-Yi3">
+                                <rect key="frame" x="8" y="193" width="398" height="46"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.8557709282" green="0.98548370600000001" blue="0.84233642200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="Blr-dU-Eza"/>
+                        <viewLayoutGuide key="safeArea" id="0B5-T1-Xej"/>
                     </view>
+                    <size key="freeformSize" width="414" height="1800"/>
                     <connections>
-                        <outlet property="scrollable_outputs" destination="egd-h2-jhw" id="UBE-7s-8TL"/>
-                        <outlet property="start_over" destination="LNU-x7-cdB" id="waK-Vg-zxa"/>
+                        <outlet property="collection1" destination="6LQ-c1-QYS" id="3Xf-qX-b00"/>
+                        <outlet property="collection2" destination="7ZC-6C-X92" id="2eC-fZ-drp"/>
+                        <outlet property="collection3" destination="4VY-0F-jv7" id="OLK-7X-mGC"/>
+                        <outlet property="collection4" destination="t7a-U2-3Me" id="mAq-cM-Pmn"/>
+                        <outlet property="collection5" destination="WKv-z2-KCu" id="Z6H-kh-rJb"/>
+                        <outlet property="nameLabel" destination="8cW-VY-nS9" id="73J-p6-d1c"/>
+                        <outlet property="nameLabel2" destination="u4T-Lk-uUt" id="Emn-0M-cNw"/>
+                        <outlet property="nameLabel3" destination="H3a-3R-cTk" id="RUD-fs-a8r"/>
+                        <outlet property="nameLabel4" destination="DOJ-U1-Fuz" id="NhI-22-O97"/>
+                        <outlet property="nameLabel5" destination="j0F-ig-2zM" id="nS8-6v-WfK"/>
+                        <outlet property="scroll" destination="CBq-NA-8NG" id="TrW-cw-Q6G"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iZB-my-QmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jR8-fj-oFm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5488.4057971014499" y="132.88043478260872"/>
+            <point key="canvasLocation" x="6160.8695652173919" y="134.5108695652174"/>
         </scene>
     </scenes>
     <resources>
-        <image name="alternate.png" width="2339" height="2676"/>
-        <image name="ascending.png" width="1068" height="799"/>
-        <image name="assymetrical.png" width="528" height="689"/>
-        <image name="background.jpg" width="2250" height="1566"/>
-        <image name="basalrosette.png" width="883" height="1185"/>
-        <image name="bilateral.png" width="632" height="831"/>
-        <image name="blade.png" width="169" height="113"/>
-        <image name="bundled.png" width="2675" height="2680"/>
-        <image name="clump.png" width="800" height="800"/>
-        <image name="decumbent.png" width="1498" height="698"/>
-        <image name="deeplydivided.png" width="2611" height="3103"/>
-        <image name="erect.png" width="383" height="838"/>
-        <image name="forb.png" width="499" height="499"/>
-        <image name="grass.png" width="590" height="590"/>
-        <image name="home.png" width="2400" height="2400"/>
-        <image name="lobed.png" width="4032" height="3833"/>
-        <image name="mat.png" width="1561" height="428"/>
-        <image name="opposite.png" width="2457" height="2775"/>
-        <image name="pinnate.png" width="3024" height="2780"/>
-        <image name="prostrate.png" width="1546" height="483"/>
-        <image name="radial.png" width="819" height="812"/>
-        <image name="shrub.png" width="497" height="497"/>
-        <image name="simple.png" width="3024" height="3135"/>
-        <image name="succulent.png" width="410" height="401"/>
-        <image name="tree.png" width="612" height="601"/>
-        <image name="vine.png" width="799" height="799"/>
-        <image name="whorled.png" width="562" height="1219"/>
+        <image name="alternate" width="2339" height="2676"/>
+        <image name="ascending" width="1068" height="799"/>
+        <image name="assymetrical" width="528" height="689"/>
+        <image name="background" width="2250" height="1566"/>
+        <image name="basalrosette" width="883" height="1185"/>
+        <image name="bilateral" width="632" height="831"/>
+        <image name="blade" width="169" height="113"/>
+        <image name="bundled" width="2675" height="2680"/>
+        <image name="clump" width="1561" height="428"/>
+        <image name="decumbent" width="1498" height="698"/>
+        <image name="deeplydivided" width="2611" height="3103"/>
+        <image name="erect" width="383" height="838"/>
+        <image name="forb" width="499" height="499"/>
+        <image name="grass" width="590" height="590"/>
+        <image name="home" width="2400" height="2400"/>
+        <image name="lobed" width="4032" height="3833"/>
+        <image name="mat" width="800" height="838"/>
+        <image name="opposite" width="2457" height="2775"/>
+        <image name="pinnate" width="3024" height="2780"/>
+        <image name="prostrate" width="1546" height="483"/>
+        <image name="radial" width="819" height="812"/>
+        <image name="shrub" width="497" height="497"/>
+        <image name="simple" width="3024" height="3135"/>
+        <image name="succulent" width="410" height="401"/>
+        <image name="tree" width="612" height="601"/>
+        <image name="vine" width="799" height="799"/>
+        <image name="whorled" width="562" height="1219"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="2Tw-EQ-R05"/>
+        <segue reference="j3v-1y-VK2"/>
         <segue reference="Tvp-4x-pK3"/>
-        <segue reference="USM-or-7Hp"/>
-        <segue reference="AKa-xX-fjk"/>
-        <segue reference="de5-zg-LOF"/>
-        <segue reference="7VG-hB-NV1"/>
-        <segue reference="AVO-f4-WUT"/>
+        <segue reference="Wj1-eT-Pz8"/>
+        <segue reference="bka-6Q-Deg"/>
+        <segue reference="6wE-Zh-5rr"/>
+        <segue reference="lSU-a9-aej"/>
+        <segue reference="wdG-PP-Thi"/>
         <segue reference="F1k-vo-mTc"/>
-        <segue reference="MJn-UD-yqI"/>
+        <segue reference="Ncm-Hk-PnE"/>
     </inferredMetricsTieBreakers>
 </document>

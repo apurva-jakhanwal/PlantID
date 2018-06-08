@@ -27,6 +27,8 @@ class FlowerViewController: UIViewController {
         if(no.isOn == true){
             plantinfo.flower = true
             print(plantinfo.flower)
+            plantinfo.flower_symmetry = []
+            plantinfo.flower_color = []
         }
         else{
             plantinfo.flower = false

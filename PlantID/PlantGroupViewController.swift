@@ -103,24 +103,6 @@ class PlantGroupViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "background.jpg")!)
-        /*let background = UIImage(named: "background.jpg")
-        
-        var imageView : UIImageView!
-        imageView = UIImageView(frame: view.bounds)
-        imageView.contentMode =  UIViewContentMode.scaleAspectFill
-        imageView.clipsToBounds = true
-        imageView.image = background
-        imageView.center = view.center
-        view.addSubview(imageView)
-        self.view.sendSubview(toBack: imageView)*/
-        
-        /*let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.dark)
-        let blurEffectView = UIVisualEffectView(effect: blurEffect)
-        blurEffectView.frame = view.bounds
-        blurEffectView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
-        view.addSubview(blurEffectView)*/
-        
         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1020)
 
         print("Plant Group Controller")

@@ -7,40 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5483BC120BF65F100872740 /* clump.png in Resources */ = {isa = PBXBuildFile; fileRef = E5483BC020BF65F000872740 /* clump.png */; };
-		E5483BC320BF65F900872740 /* vine.png in Resources */ = {isa = PBXBuildFile; fileRef = E5483BC220BF65F800872740 /* vine.png */; };
-		E5483BC520BF6F6100872740 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = E5483BC420BF6F5F00872740 /* home.png */; };
 		E568D1F020990432000A3FE5 /* plants.json in Resources */ = {isa = PBXBuildFile; fileRef = E568D1EF20990432000A3FE5 /* plants.json */; };
-		E57E370720B908EC005C6ABA /* forb.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E370220B908D8005C6ABA /* forb.png */; };
-		E57E370820B908EC005C6ABA /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E370320B908DC005C6ABA /* grass.png */; };
-		E57E370920B908EC005C6ABA /* succulent.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E370420B908E0005C6ABA /* succulent.png */; };
-		E57E370A20B908EC005C6ABA /* shrub.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E370520B908E4005C6ABA /* shrub.png */; };
-		E57E370B20B908EC005C6ABA /* tree.png in Resources */ = {isa = PBXBuildFile; fileRef = E57E370620B908E8005C6ABA /* tree.png */; };
 		E593F1C02097931A0027EEA7 /* GrowthFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E593F1BF2097931A0027EEA7 /* GrowthFormViewController.swift */; };
 		E593F1C22097987D0027EEA7 /* FlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E593F1C12097987D0027EEA7 /* FlowerViewController.swift */; };
 		E593F1C4209799E30027EEA7 /* FlowerColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E593F1C3209799E30027EEA7 /* FlowerColorViewController.swift */; };
 		E593F1C6209799EF0027EEA7 /* FlowerSymmetryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E593F1C5209799EF0027EEA7 /* FlowerSymmetryViewController.swift */; };
 		E593F1C820979A190027EEA7 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E593F1C720979A190027EEA7 /* ResultsViewController.swift */; };
-		E59534AB20B3789E00AB1650 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E59534AA20B3789C00AB1650 /* background.jpg */; };
-		E5EEF7EF20BE458300181B7E /* deeplydivided.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7EA20BE457600181B7E /* deeplydivided.png */; };
-		E5EEF7F020BE458300181B7E /* blade.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7EB20BE457800181B7E /* blade.png */; };
-		E5EEF7F120BE458300181B7E /* simple.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7EC20BE457A00181B7E /* simple.png */; };
-		E5EEF7F220BE458300181B7E /* lobed.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7ED20BE457C00181B7E /* lobed.png */; };
-		E5EEF7F320BE458300181B7E /* pinnate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7EE20BE458100181B7E /* pinnate.png */; };
-		E5EEF7F920BE461000181B7E /* whorled.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7F420BE460300181B7E /* whorled.png */; };
-		E5EEF7FA20BE461000181B7E /* bundled.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7F520BE460500181B7E /* bundled.png */; };
-		E5EEF7FB20BE461000181B7E /* opposite.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7F620BE460900181B7E /* opposite.png */; };
-		E5EEF7FC20BE461000181B7E /* alternate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7F720BE460C00181B7E /* alternate.png */; };
-		E5EEF7FD20BE461000181B7E /* basalrosette.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7F820BE460E00181B7E /* basalrosette.png */; };
-		E5EEF80320BE46BF00181B7E /* decumbent.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7FE20BE46BB00181B7E /* decumbent.png */; };
-		E5EEF80420BE46BF00181B7E /* ascending.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF7FF20BE46BB00181B7E /* ascending.png */; };
-		E5EEF80520BE46BF00181B7E /* erect.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF80020BE46BC00181B7E /* erect.png */; };
-		E5EEF80620BE46BF00181B7E /* mat.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF80120BE46BD00181B7E /* mat.png */; };
-		E5EEF80720BE46BF00181B7E /* prostrate.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF80220BE46BE00181B7E /* prostrate.png */; };
-		E5EEF80B20BE46F800181B7E /* assymetrical.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF80820BE46F500181B7E /* assymetrical.png */; };
-		E5EEF80C20BE46F800181B7E /* bilateral.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF80920BE46F600181B7E /* bilateral.png */; };
-		E5EEF80D20BE46F800181B7E /* radial.png in Resources */ = {isa = PBXBuildFile; fileRef = E5EEF80A20BE46F700181B7E /* radial.png */; };
-		E5F3992120AA672B00968FAA /* placeholder1.png in Resources */ = {isa = PBXBuildFile; fileRef = E5F3992020AA672A00968FAA /* placeholder1.png */; };
+		E5D7879620C0EEA000311F61 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7879520C0EEA000311F61 /* ImageCollectionViewCell.swift */; };
+		E5D7879820C0EFD100311F61 /* TopResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7879720C0EFD100311F61 /* TopResultsViewController.swift */; };
 		E5F8BABA2096E65B00429617 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8BAB92096E65B00429617 /* AppDelegate.swift */; };
 		E5F8BABC2096E65B00429617 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F8BABB2096E65B00429617 /* ViewController.swift */; };
 		E5F8BABF2096E65B00429617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5F8BABD2096E65B00429617 /* Main.storyboard */; };
@@ -52,40 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E5483BC020BF65F000872740 /* clump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clump.png; sourceTree = "<group>"; };
-		E5483BC220BF65F800872740 /* vine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vine.png; sourceTree = "<group>"; };
-		E5483BC420BF6F5F00872740 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
 		E568D1EF20990432000A3FE5 /* plants.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = plants.json; sourceTree = "<group>"; };
-		E57E370220B908D8005C6ABA /* forb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forb.png; sourceTree = "<group>"; };
-		E57E370320B908DC005C6ABA /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grass.png; sourceTree = "<group>"; };
-		E57E370420B908E0005C6ABA /* succulent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = succulent.png; sourceTree = "<group>"; };
-		E57E370520B908E4005C6ABA /* shrub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shrub.png; sourceTree = "<group>"; };
-		E57E370620B908E8005C6ABA /* tree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tree.png; sourceTree = "<group>"; };
 		E593F1BF2097931A0027EEA7 /* GrowthFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrowthFormViewController.swift; sourceTree = "<group>"; };
 		E593F1C12097987D0027EEA7 /* FlowerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerViewController.swift; sourceTree = "<group>"; };
 		E593F1C3209799E30027EEA7 /* FlowerColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerColorViewController.swift; sourceTree = "<group>"; };
 		E593F1C5209799EF0027EEA7 /* FlowerSymmetryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerSymmetryViewController.swift; sourceTree = "<group>"; };
 		E593F1C720979A190027EEA7 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
-		E59534AA20B3789C00AB1650 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
-		E5EEF7EA20BE457600181B7E /* deeplydivided.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deeplydivided.png; sourceTree = "<group>"; };
-		E5EEF7EB20BE457800181B7E /* blade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blade.png; sourceTree = "<group>"; };
-		E5EEF7EC20BE457A00181B7E /* simple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = simple.png; sourceTree = "<group>"; };
-		E5EEF7ED20BE457C00181B7E /* lobed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lobed.png; sourceTree = "<group>"; };
-		E5EEF7EE20BE458100181B7E /* pinnate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinnate.png; sourceTree = "<group>"; };
-		E5EEF7F420BE460300181B7E /* whorled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whorled.png; sourceTree = "<group>"; };
-		E5EEF7F520BE460500181B7E /* bundled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bundled.png; sourceTree = "<group>"; };
-		E5EEF7F620BE460900181B7E /* opposite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = opposite.png; sourceTree = "<group>"; };
-		E5EEF7F720BE460C00181B7E /* alternate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alternate.png; sourceTree = "<group>"; };
-		E5EEF7F820BE460E00181B7E /* basalrosette.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basalrosette.png; sourceTree = "<group>"; };
-		E5EEF7FE20BE46BB00181B7E /* decumbent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = decumbent.png; sourceTree = "<group>"; };
-		E5EEF7FF20BE46BB00181B7E /* ascending.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ascending.png; sourceTree = "<group>"; };
-		E5EEF80020BE46BC00181B7E /* erect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = erect.png; sourceTree = "<group>"; };
-		E5EEF80120BE46BD00181B7E /* mat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mat.png; sourceTree = "<group>"; };
-		E5EEF80220BE46BE00181B7E /* prostrate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prostrate.png; sourceTree = "<group>"; };
-		E5EEF80820BE46F500181B7E /* assymetrical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = assymetrical.png; sourceTree = "<group>"; };
-		E5EEF80920BE46F600181B7E /* bilateral.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bilateral.png; sourceTree = "<group>"; };
-		E5EEF80A20BE46F700181B7E /* radial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radial.png; sourceTree = "<group>"; };
-		E5F3992020AA672A00968FAA /* placeholder1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder1.png; sourceTree = "<group>"; };
+		E5D7879520C0EEA000311F61 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		E5D7879720C0EFD100311F61 /* TopResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopResultsViewController.swift; sourceTree = "<group>"; };
 		E5F8BAB62096E65B00429617 /* PlantID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F8BAB92096E65B00429617 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5F8BABB2096E65B00429617 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -129,37 +77,11 @@
 			isa = PBXGroup;
 			children = (
 				E568D1EF20990432000A3FE5 /* plants.json */,
-				E59534AA20B3789C00AB1650 /* background.jpg */,
-				E57E370220B908D8005C6ABA /* forb.png */,
-				E57E370320B908DC005C6ABA /* grass.png */,
-				E57E370520B908E4005C6ABA /* shrub.png */,
-				E57E370420B908E0005C6ABA /* succulent.png */,
-				E57E370620B908E8005C6ABA /* tree.png */,
-				E5EEF7EB20BE457800181B7E /* blade.png */,
-				E5EEF7EA20BE457600181B7E /* deeplydivided.png */,
-				E5EEF7ED20BE457C00181B7E /* lobed.png */,
-				E5EEF7EE20BE458100181B7E /* pinnate.png */,
-				E5EEF7EC20BE457A00181B7E /* simple.png */,
-				E5EEF7F720BE460C00181B7E /* alternate.png */,
-				E5EEF7F820BE460E00181B7E /* basalrosette.png */,
-				E5EEF7F520BE460500181B7E /* bundled.png */,
-				E5EEF7F620BE460900181B7E /* opposite.png */,
-				E5EEF7F420BE460300181B7E /* whorled.png */,
-				E5EEF7FF20BE46BB00181B7E /* ascending.png */,
-				E5EEF7FE20BE46BB00181B7E /* decumbent.png */,
-				E5EEF80020BE46BC00181B7E /* erect.png */,
-				E5EEF80120BE46BD00181B7E /* mat.png */,
-				E5483BC020BF65F000872740 /* clump.png */,
-				E5483BC220BF65F800872740 /* vine.png */,
-				E5EEF80220BE46BE00181B7E /* prostrate.png */,
-				E5EEF80820BE46F500181B7E /* assymetrical.png */,
-				E5EEF80920BE46F600181B7E /* bilateral.png */,
-				E5EEF80A20BE46F700181B7E /* radial.png */,
-				E5F3992020AA672A00968FAA /* placeholder1.png */,
-				E5483BC420BF6F5F00872740 /* home.png */,
 				E5F8BAB92096E65B00429617 /* AppDelegate.swift */,
 				E5F8BABB2096E65B00429617 /* ViewController.swift */,
 				E5F8BABD2096E65B00429617 /* Main.storyboard */,
+				E5D7879720C0EFD100311F61 /* TopResultsViewController.swift */,
+				E5D7879520C0EEA000311F61 /* ImageCollectionViewCell.swift */,
 				E5F8BACD2096FE4800429617 /* PlantGroupViewController.swift */,
 				E593F1C720979A190027EEA7 /* ResultsViewController.swift */,
 				E593F1C3209799E30027EEA7 /* FlowerColorViewController.swift */,
@@ -234,38 +156,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EEF7F020BE458300181B7E /* blade.png in Resources */,
-				E5EEF80320BE46BF00181B7E /* decumbent.png in Resources */,
-				E57E370820B908EC005C6ABA /* grass.png in Resources */,
-				E5EEF7FA20BE461000181B7E /* bundled.png in Resources */,
-				E5483BC520BF6F6100872740 /* home.png in Resources */,
-				E5EEF7F320BE458300181B7E /* pinnate.png in Resources */,
-				E59534AB20B3789E00AB1650 /* background.jpg in Resources */,
-				E57E370720B908EC005C6ABA /* forb.png in Resources */,
-				E5EEF7FB20BE461000181B7E /* opposite.png in Resources */,
-				E5EEF80420BE46BF00181B7E /* ascending.png in Resources */,
-				E5EEF80D20BE46F800181B7E /* radial.png in Resources */,
-				E5EEF80B20BE46F800181B7E /* assymetrical.png in Resources */,
-				E5EEF7FC20BE461000181B7E /* alternate.png in Resources */,
-				E5483BC320BF65F900872740 /* vine.png in Resources */,
 				E5F8BAC42096E65B00429617 /* LaunchScreen.storyboard in Resources */,
-				E5F3992120AA672B00968FAA /* placeholder1.png in Resources */,
 				E5F8BAC12096E65B00429617 /* Assets.xcassets in Resources */,
-				E5EEF7F220BE458300181B7E /* lobed.png in Resources */,
 				E5F8BABF2096E65B00429617 /* Main.storyboard in Resources */,
-				E5EEF80C20BE46F800181B7E /* bilateral.png in Resources */,
-				E57E370920B908EC005C6ABA /* succulent.png in Resources */,
-				E5EEF7EF20BE458300181B7E /* deeplydivided.png in Resources */,
-				E5EEF7F120BE458300181B7E /* simple.png in Resources */,
-				E5483BC120BF65F100872740 /* clump.png in Resources */,
-				E57E370B20B908EC005C6ABA /* tree.png in Resources */,
-				E5EEF7F920BE461000181B7E /* whorled.png in Resources */,
-				E5EEF80620BE46BF00181B7E /* mat.png in Resources */,
-				E5EEF7FD20BE461000181B7E /* basalrosette.png in Resources */,
 				E568D1F020990432000A3FE5 /* plants.json in Resources */,
-				E57E370A20B908EC005C6ABA /* shrub.png in Resources */,
-				E5EEF80720BE46BF00181B7E /* prostrate.png in Resources */,
-				E5EEF80520BE46BF00181B7E /* erect.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E593F1C22097987D0027EEA7 /* FlowerViewController.swift in Sources */,
+				E5D7879620C0EEA000311F61 /* ImageCollectionViewCell.swift in Sources */,
 				E5F8BAD02097066100429617 /* LeafShapeViewController.swift in Sources */,
 				E5F8BAD22097097800429617 /* LeafArrangementViewController.swift in Sources */,
 				E593F1C820979A190027EEA7 /* ResultsViewController.swift in Sources */,
@@ -284,6 +179,7 @@
 				E593F1C02097931A0027EEA7 /* GrowthFormViewController.swift in Sources */,
 				E593F1C6209799EF0027EEA7 /* FlowerSymmetryViewController.swift in Sources */,
 				E5F8BABC2096E65B00429617 /* ViewController.swift in Sources */,
+				E5D7879820C0EFD100311F61 /* TopResultsViewController.swift in Sources */,
 				E5F8BABA2096E65B00429617 /* AppDelegate.swift in Sources */,
 				E593F1C4209799E30027EEA7 /* FlowerColorViewController.swift in Sources */,
 			);
