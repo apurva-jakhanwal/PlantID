@@ -24,6 +24,8 @@ class TopResultsViewController: UIViewController, UICollectionViewDelegate, UICo
     
     @IBOutlet weak var scroll: UIScrollView!
     
+    //Future improvements: resolve ties, include more pictures. 
+    
     var imageArray = [UIImage(named:  "\(finalplants.codes[0])" + "_Plant"), UIImage(named:  "\(finalplants.codes[0])" + "_Leaf"), UIImage(named:  "\(finalplants.codes[0])" + "_Flower"), UIImage(named:  "\(finalplants.codes[0])" + "_Cot"), UIImage(named:  "\(finalplants.codes[0])" + "_Seedling"),]
     
     var imageArray2 = [UIImage(named:  "\(finalplants.codes[1])" + "_Plant"), UIImage(named:  "\(finalplants.codes[1])" + "_Leaf"), UIImage(named:  "\(finalplants.codes[1])" + "_Flower"), UIImage(named:  "\(finalplants.codes[1])" + "_Cot"), UIImage(named:  "\(finalplants.codes[1])" + "_Seedling"),]
