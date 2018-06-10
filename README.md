@@ -1,15 +1,15 @@
 Installation and Deployment:
-1. Go to App Store on your Mac (image below on the left) and download Xcode (image below on the right).
+1. Go to App Store on your Mac and download Xcode.
            
-2. In the GitHub repository, click on ‘Clone or Download’ and select ‘Download ZIP’ as shown in the image below.
+2. In the GitHub repository, click on ‘Clone or Download’ and select ‘Download ZIP’.
 
 3. After the zip folder downloads, open it to unzip it and see the files in the folder.
 
-4. Open ‘PlantID.xcodeproj’ (image below on the left) to edit the project and to build and run (the play button) it on simulators or your own device (image below on the right).
+4. Open ‘PlantID.xcodeproj’ to edit the project and to build and run (the play button) it on simulators or your own device.
     
-5. Go to 'PlantID' from the left under project navigator (image below on the left) and select the 'Team' under Signing (image below on the right). If you don't have a team click on 'Add an account' (drop-down under Team) and quickly set up your Apple ID to be able to add a team and build the app.
+5. Go to 'PlantID' from the left under project navigator and select the 'Team' under Signing. If you don't have a team click on 'Add an account' and quickly set up your Apple ID to be able to add a team and build the app.
         
-6. Once you add a team, click on the play button (as shown in the image in step 4) and you can view your app on a simulator. If you wish to view it on your device, make sure you select your device in the drop-down as shown in the image below and then click on play. 
+6. Once you add a team, click on the play button and you can view your app on a simulator. If you wish to view it on your device, make sure you select your device in the drop-down and then click on play. 
  
 7. If you are deploying the app on your phone, go to ‘Settings’ on your phone, then ‘Device Management’ and then app name, then click on ‘Trust’ and you should be all set to use the app on your phone. 
  
