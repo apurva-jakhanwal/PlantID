@@ -1,3 +1,5 @@
+Plant ID is an iOS/Android app designed to allow non-experts to identify plants in the UCI Nature Preserve by asking them questions about the plant.
+
 Installation and Deployment:
 1. Go to App Store on your Mac and download Xcode.
            
