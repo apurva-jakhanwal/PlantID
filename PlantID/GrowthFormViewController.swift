@@ -10,7 +10,6 @@ import UIKit
 
 class GrowthFormViewController: UIViewController {
 
-    
     @IBOutlet var prostate: UISwitch!
     @IBOutlet var decumbent: UISwitch!
     @IBOutlet var ascending: UISwitch!
@@ -169,10 +168,8 @@ class GrowthFormViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
-         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+2500)
+        scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+2500)
         
         prostate.addTarget(self, action: #selector(GrowthFormViewController.prostate_selected(prostate:)), for: UIControlEvents.valueChanged)
         decumbent.addTarget(self, action: #selector(GrowthFormViewController.decumbent_selected(decumbent:)), for: UIControlEvents.valueChanged)
@@ -214,16 +211,5 @@ class GrowthFormViewController: UIViewController {
             vine.setOn(!vine.isOn, animated: true)
         }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

@@ -118,9 +118,8 @@ class LeafArrangementViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1410)
+        scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1410)
 
-        // Do any additional setup after loading the view.
         alternate.addTarget(self, action: #selector(LeafArrangementViewController.alternate_selected(alternate:)), for: UIControlEvents.valueChanged)
         opposite.addTarget(self, action: #selector(LeafArrangementViewController.opposite_selected(opposite:)), for: UIControlEvents.valueChanged)
         bundled.addTarget(self, action: #selector(LeafArrangementViewController.bundled_selected(bundled:)), for: UIControlEvents.valueChanged)
@@ -149,16 +148,5 @@ class LeafArrangementViewController: UIViewController {
             rosette.setOn(!rosette.isOn, animated: true)
         }
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

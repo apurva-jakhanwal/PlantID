@@ -100,9 +100,8 @@ class LeafShapeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1020)
+        scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+1020)
 
-        // Do any additional setup after loading the view.
         simple.addTarget(self, action: #selector(LeafShapeViewController.simple_selected(simple:)), for: UIControlEvents.valueChanged)
         pinnate.addTarget(self, action: #selector(LeafShapeViewController.pinnate_selected(pinnate:)), for: UIControlEvents.valueChanged)
         lobed.addTarget(self, action: #selector(LeafShapeViewController.lobed_selected(lobed:)), for: UIControlEvents.valueChanged)
@@ -128,16 +127,5 @@ class LeafShapeViewController: UIViewController {
         }
         
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

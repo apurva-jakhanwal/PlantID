@@ -38,8 +38,6 @@ class FlowerViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
         yes.addTarget(self, action: #selector(FlowerViewController.yes_selected(yes:)), for: UIControlEvents.valueChanged)
         no.addTarget(self, action: #selector(FlowerViewController.no_selected(no:)), for: UIControlEvents.valueChanged)
@@ -50,16 +48,5 @@ class FlowerViewController: UIViewController {
             no.setOn(!no.isOn, animated: true)
         }
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

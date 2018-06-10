@@ -66,8 +66,6 @@ class FlowerSymmetryViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
         
         scroll.contentSize = CGSize(width: self.view.frame.size.width, height: self.view.frame.size.height+290)
         
@@ -88,15 +86,4 @@ class FlowerSymmetryViewController: UIViewController {
         }
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
