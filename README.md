@@ -1,9 +1,7 @@
-Read-me for iOS app
-
 Installation and Deployment:
 1. Go to App Store on your Mac (image below on the left) and download Xcode (image below on the right).
            
-2. Go to: https://github.com/apurva-jakhanwal/PlantID. In that GitHub repository, click on ‘Clone or Download’ and select ‘Download ZIP’ as shown in the image below.
+2. In the GitHub repository, click on ‘Clone or Download’ and select ‘Download ZIP’ as shown in the image below.
 
 3. After the zip folder downloads, open it to unzip it and see the files in the folder.
 
@@ -30,3 +28,4 @@ Additional Information:
     - CODE is the first three letters of the first word in the scientific name concatenated with the first three letters of the second word in the scientific name (This might not always be the code in the excel sheet)
     - subject is Flower, Cot, Plant, Seedling, Leaf or Fruit 
     - X is a sequential number starting at 2, meaning that if ACMGLA_Cot3 exists, ACMGLA_Cot2 must exist as well, or Cot3 will not be displayed. Ex: ACMGLA_Cot.jpg, ACMGLA_Cot2.png, ACMGLA_Cot3.jpg, ACMSTR_Fruit.jpg
+7. If the app stops working on your own device, you will have to deploy it again following the steps above since the app is currently not a part of the Apple Developer Program. To prevent this, you can get the developer certification by paying a certain amount and release it to the App Store. 
